@@ -17,12 +17,9 @@ int main() {
         a[i][i]=1;
     }
     for(k=2;k<=n;k++){
-        for(i=0;i<n-k+1;i++){
+        for(i=0;i<=n-k;i++){
             j=i+k-1;
-            if(s[i]==s[j]&& k==2){
-                a[i][j]=2;
-            }
-            else if(s[i]==s[j]){
+           if(s[i]==s[j]){
                 a[i][j]=a[i+1][j-1]+2;
             }
             else{
@@ -33,4 +30,3 @@ int main() {
     cout<<a[0][n-1];
     return 0;
 }
-
