@@ -1,3 +1,6 @@
+/*Minimum cost path of a matrix while travesing from 
+(0,0) to (n-1,m-1). The minimum value will be found as 
+the last element int matrix*/
 #include<bits/stdc++.h>
 using namespace std;
 int min(int a,int b,int c){
