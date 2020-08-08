@@ -1,3 +1,5 @@
+/*Print path of the minimum cost traversal by indicating 
+that position as -1 in the martix*/
 #include<bits/stdc++.h>
 using namespace std;
 int min(int a,int b,int c){
