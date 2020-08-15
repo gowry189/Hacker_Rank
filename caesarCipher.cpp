@@ -13,7 +13,7 @@ string caesarCipher(string s, int k) {
                 cout<<s[i];
             }
             else{
-                char res = s[i]+k;
+                unsigned char res = s[i]+k;
                 if(isupper(s[i])&& res>90){
                     res=res-26;
                     a+=res;
